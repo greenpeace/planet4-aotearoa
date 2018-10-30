@@ -3,7 +3,6 @@ version: 2
 defaults: &defaults
   docker:
     - image: gcr.io/planet-4-151612/p4-builder:latest
-  working_directory:  /home/circleci
 
 job_environments:
   common_environment: &common_environment
@@ -47,6 +46,7 @@ job_environments:
 
 job_definitions:
   build_steps: &build_steps
+    working_directory: ~/
     steps:
       - setup_remote_docker
       - run: activate-gcloud-account.sh
@@ -119,6 +119,7 @@ job_definitions:
 
 
   deploy_steps: &deploy_steps
+    working_directory: ~/
     steps:
       - attach_workspace:
           at: /tmp/workspace
@@ -189,16 +190,6 @@ jobs:
       <<: *common_environment
       <<: *production_environment
     <<: *deploy_steps
-  create-sync-sql:
-    <<: *defaults
-    environment:
-       <<: *common_environment
-       <<: *production_environment
-    working_directory: /tmp/workspace/src
-    steps:
-      - checkout
-      - attach_workspace:
-          at: /tmp/workspace
 
 
   create-sync-sql:
