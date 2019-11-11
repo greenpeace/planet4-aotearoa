@@ -1,4 +1,4 @@
-# Planet4 - Greenpeace New Zealand 
+# Planet4 - Greenpeace New Zealand
 
 ![Greenpeace Planet4](./planet4.png)
 
