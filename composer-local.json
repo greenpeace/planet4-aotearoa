@@ -6,6 +6,9 @@
 		"greenpeace/planet4-child-theme-newzealand" : "0.*"
 	},
 	"scripts": {
-		"site:custom" : []
+		"core:language": "wp language core install en_NZ",
+		"site:custom" : [
+			"@core:language"
+		]
 	}
 }
