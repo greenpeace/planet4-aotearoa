@@ -39,15 +39,15 @@ job_environments:
   release_environment: &release_environment
     APP_ENVIRONMENT: staging
     APP_HOSTNAME: www-stage.greenpeace.org
-    APP_HOSTPATH: new-zealand
+    APP_HOSTPATH: aotearoa
     CLOUDSQL_INSTANCE: planet4-prod
     GCLOUD_CLUSTER: planet4-production
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: new-zealand
-    HELM_RELEASE: planet4-new-zealand-release
+    HELM_RELEASE: planet4-aotearoa-release
     NEWRELIC_APPNAME: P4 New Zealand Release
     WP_DB_NAME: planet4-nz_wordpress_release
-    WP_STATELESS_BUCKET: planet4-new-zealand-stateless-release
+    WP_STATELESS_BUCKET: planet4-aotearoa-stateless-release
   production_environment: &production_environment
     APP_HOSTNAME: www.greenpeace.org
     APP_HOSTPATH: new-zealand
