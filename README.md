@@ -1,5 +1,5 @@
-# Planet4 - Greenpeace New Zealand
+# Planet4 - Greenpeace Aotearoa
 
 ![Greenpeace Planet4](./planet4.png)
 
-This repo provides the base for Planet4 [Greenpeace New Zealand](https://www.greenpeace.org/new-zealand/) website.
+This repo provides the base for Planet4 [Greenpeace Aotearoa](https://www.greenpeace.org/aotearoa/) website.

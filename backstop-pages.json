@@ -1,19 +1,19 @@
 {
   "scenarios": [
     {
-      "label": "Planet4 New Zealand act page",
+      "label": "Planet4 Aotearoa act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/act/",
       "delay": 3000,
       "misMatchThreshold": 1.5
     },
     {
-      "label": "Planet4 New Zealand explore page",
+      "label": "Planet4 Aotearoa explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/explore/",
       "delay": 3000,
       "misMatchThreshold": 1.5
     },
     {
-      "label": "Planet4 New Zealand privacy and cookies page",
+      "label": "Planet4 Aotearoa privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/privacy/",
       "delay": 3000,
       "misMatchThreshold": 1.5
