@@ -30,7 +30,7 @@ job_environments:
     GCLOUD_CLUSTER: p4-development
     GOOGLE_PROJECT_ID: planet-4-151612
     HELM_NAMESPACE: develop
-    HELM_RELEASE: planet4-aotearoa
+    HELM_RELEASE: planet4-new-zealand
     NEWRELIC_APPNAME: P4 New Zealand Development
     WP_DB_NAME: planet4-nz_wordpress_develop
     WP_STATELESS_BUCKET: planet4-aotearoa-stateless-develop
