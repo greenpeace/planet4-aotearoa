@@ -44,7 +44,7 @@ job_environments:
     GCLOUD_CLUSTER: planet4-production
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: new-zealand
-    HELM_RELEASE: planet4-aotearoa-release
+    HELM_RELEASE: planet4-new-zealand-release
     NEWRELIC_APPNAME: P4 New Zealand Release
     WP_DB_NAME: planet4-nz_wordpress_release
     WP_STATELESS_BUCKET: planet4-aotearoa-stateless-release
@@ -55,7 +55,7 @@ job_environments:
     GCLOUD_CLUSTER: planet4-production
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: new-zealand
-    HELM_RELEASE: planet4-aotearoa-master
+    HELM_RELEASE: planet4-new-zealand-master
     MIN_REPLICA_COUNT: 2
     NEWRELIC_APPNAME: P4 New Zealand Production
     WP_DB_NAME: planet4-nz_wordpress_master
