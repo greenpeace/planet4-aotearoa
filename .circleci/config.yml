@@ -20,7 +20,7 @@ orbs:
   slack: circleci/slack@3.4.2
 job_environments:
   common_environment: &common_environment
-    CONTAINER_PREFIX: planet4-new-zealand
+    CONTAINER_PREFIX: planet4-aotearoa
     WP_DB_NAME_PREFIX: planet4-nz_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
