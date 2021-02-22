@@ -1,14 +1,14 @@
 {
-	"name": "greenpeace/planet4-aotearoa",
-	"description": "Greenpeace P4 Aotearoa",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-aotearoa" : "dev-master"
-	},
-	"scripts": {
-		"core:language": "wp language core install en_NZ --activate",
-		"site:custom" : [
-			"@core:language"
-		]
-	}
+    "name": "greenpeace/planet4-aotearoa",
+    "description": "Greenpeace P4 Aotearoa",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-aotearoa" : "dev-master"
+    },
+    "scripts": {
+        "core:language": "wp language core install en_NZ --activate",
+        "site:custom" : [
+            "@core:language"
+        ]
+    }
 }
