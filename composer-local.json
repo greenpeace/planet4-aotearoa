@@ -9,9 +9,11 @@
         "plugins/wpml-string-translation": "*"
     },
     "scripts": {
-        "core:language": "wp language core install en_NZ --activate",
+        "core:lang-nz": "wp language core install en_NZ --activate",
+        "core:lang-mri": "wp language core install mri --activate",
         "site:custom" : [
-            "@core:language"
+            "@core:lang-nz",
+            "@core:lang-mri"
         ]
     }
 }
