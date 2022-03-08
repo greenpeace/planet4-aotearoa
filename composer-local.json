@@ -1,19 +1,22 @@
 {
-    "name": "greenpeace/planet4-aotearoa",
-    "description": "Greenpeace P4 Aotearoa",
-    "license": "MIT",
-    "require": {
-        "greenpeace/planet4-child-theme-aotearoa" : "dev-main",
-        "plugins/sitepress-multilingual-cms": "*",
-        "plugins/wpml-translation-management": "*",
-        "plugins/wpml-string-translation": "*"
-    },
-    "scripts": {
-        "core:lang-nz": "wp language core install en_NZ --activate",
-        "core:lang-mri": "rsync -ar extra/languages/mri.* public/wp-content/languages/",
-        "site:custom" : [
-            "@core:lang-nz",
-            "@core:lang-mri"
-        ]
-    }
+  "name": "greenpeace/planet4-aotearoa",
+  "description": "Greenpeace P4 Aotearoa",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-child-theme-aotearoa" : "dev-main",
+    "plugins/sitepress-multilingual-cms": "*",
+    "plugins/wpml-translation-management": "*",
+    "plugins/wpml-string-translation": "*",
+    "plugins/gravityforms": "*",
+    "plugins/gravityformsquiz": "*",
+    "plugins/gravityformshubspot": "*"
+  },
+  "scripts": {
+    "core:lang-nz": "wp language core install en_NZ --activate",
+    "core:lang-mri": "rsync -ar extra/languages/mri.* public/wp-content/languages/",
+    "site:custom" : [
+      "@core:lang-nz",
+      "@core:lang-mri"
+    ]
+  }
 }
