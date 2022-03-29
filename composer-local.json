@@ -9,8 +9,7 @@
     "plugins/wpml-string-translation": "*",
     "plugins/gravityforms": "*",
     "plugins/gravityformsquiz": "*",
-    "plugins/gravityformshubspot": "*",
-    "plugins/gravityformswebhooks": "*"
+    "plugins/gravityformshubspot": "*"
   },
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
