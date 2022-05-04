@@ -7,9 +7,8 @@
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-translation-management": "*",
     "plugins/wpml-string-translation": "*",
-    "plugins/gravityforms": "*",
-    "plugins/gravityformsquiz": "*",
-    "plugins/gravityformshubspot": "*"
+    "plugins/gravityformshubspot": "*",
+    "plugins/gravityformswebhooks": "*"
   },
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
