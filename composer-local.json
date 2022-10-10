@@ -10,10 +10,8 @@
   },
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
-    "core:lang-mri": "rsync -ar extra/languages/mri.* public/wp-content/languages/",
     "site:custom" : [
-      "@core:lang-nz",
-      "@core:lang-mri"
+      "@core:lang-nz"
     ]
   }
 }
