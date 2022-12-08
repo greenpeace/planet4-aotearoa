@@ -1,5 +1,6 @@
 {
   "require": {
-    "plugins/gravityformssurvey": "*"
+    "plugins/gravityformssurvey": "*",
+    "greenpeace/planet4-master-theme" : "dev-wpml-media-command"
   }
 }
