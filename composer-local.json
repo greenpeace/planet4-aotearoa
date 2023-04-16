@@ -7,6 +7,7 @@
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
     "plugins/gravityformswebhooks": "*",
+    "plugins/gravityformsgoogleanalytics": "*",
     "plugins/gravityformsstripe": "*"
   },
   "scripts": {
