@@ -15,7 +15,8 @@
     "plugins/gravityformswebhooks": "*",
     "plugins/gravityformsgoogleanalytics": "*",
     "plugins/gravityformsstripe": "*",
-    "rtcamp/gravityforms-sfmc-data-extension": "dev-composer"
+    "rtcamp/gravityforms-sfmc-data-extension": "dev-composer",
+    "plugins/wpml-elasticpress": "*"
   },
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
