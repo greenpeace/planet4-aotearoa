@@ -2,20 +2,12 @@
   "name": "greenpeace/planet4-aotearoa",
   "description": "Greenpeace P4 Aotearoa",
   "license": "MIT",
-  "repositories": [
-    {
-      "url": "https://github.com/greenpeace/gravityforms-sfmc-data-extension",
-      "type": "git"
-    }
-  ],
   "require": {
     "greenpeace/planet4-child-theme-aotearoa" : "dev-main",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
     "plugins/gravityformswebhooks": "*",
-    "plugins/gravityformsgoogleanalytics": "*",
     "plugins/gravityformsstripe": "*",
-    "rtcamp/gravityforms-sfmc-data-extension": "dev-composer",
     "plugins/wpml-elasticpress": "*"
   },
   "scripts": {
