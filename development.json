@@ -1,6 +1,5 @@
 {
   "require": {
-    "greenpeace/planet4-master-theme": "dev-bug/remove-smilies-filter",
     "wpackagist-plugin/wordpress-seo": "23.6"
   }
 }
