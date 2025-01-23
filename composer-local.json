@@ -3,7 +3,7 @@
   "description": "Greenpeace P4 Aotearoa",
   "license": "MIT",
   "require": {
-    "greenpeace/planet4-child-theme-aotearoa" : "dev-main",
+    "greenpeace/planet4-child-theme-aotearoa": "dev-main",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
     "plugins/gravityformswebhooks": "*",
@@ -12,8 +12,7 @@
   },
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
-    "site:custom" : [
-      "@core:lang-nz"
-    ]
+    "install:plugin-yoast-seo": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/wordpress-seo-premium-24.3.zip",
+    "site:custom": ["@core:lang-nz", "@install:plugin-yoast-seo"]
   }
 }
