@@ -2,5 +2,8 @@
   "scripts": {
     "install:plugin-yoast-seo": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/wordpress-seo-premium-24.3.zip",
     "site:custom": ["@install:plugin-yoast-seo"]
+  },
+  "require": {
+    "plugins/plugin-yoast-seo": "*"
   }
 }
