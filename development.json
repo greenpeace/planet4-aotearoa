@@ -1,5 +1,5 @@
 {
   "require": {
-    "plugins/plugin-yoast-seo": "*"
+    "wpackagist-plugin/wordpress-seo": "24.3"
   }
 }
