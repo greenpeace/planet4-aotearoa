@@ -27,6 +27,7 @@ job_environments:
     CONTAINER_PREFIX: planet4-new-zealand
     WP_DB_NAME_PREFIX: planet4-nz_wordpress
   develop_environment: &develop_environment
+    PARENT_VERSION: stateless-root
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
     APP_HOSTPATH: aotearoa
@@ -37,7 +38,6 @@ job_environments:
     HELM_RELEASE: planet4-new-zealand
     WP_DB_NAME: planet4-nz_wordpress_develop
     WP_STATELESS_BUCKET: planet4-aotearoa-stateless-develop
-    WP_STATELESS_MEDIA_ROOT_DIR: /%date_year%/
   release_build_env: &release_build_env
     GOOGLE_PROJECT_ID: planet4-production
   release_environment: &release_environment
