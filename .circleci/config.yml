@@ -428,10 +428,7 @@ jobs:
           command: activate-gcloud-account.sh
       - run:
           name: Sync image files
-          command: |
-            for file in $(gsutil ls gs://planet4-aotearoa-stateless/2025/05/*); do
-              gcloud storage cp "$file" gs://planet4-aotearoa-stateless/2025/06/
-            done
+          command: gcloud storage cp gs://planet4-aotearoa-stateless/2025/05/* gs://planet4-aotearoa-stateless/2025/06/
 
   backup:
     docker:
@@ -568,7 +565,7 @@ workflows:
   stateless:
     triggers:
       - schedule:
-          cron: "30 17 * * *"
+          cron: "30 13 * * *"
           filters:
             branches:
               only:
