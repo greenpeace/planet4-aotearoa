@@ -565,7 +565,7 @@ workflows:
   stateless:
     triggers:
       - schedule:
-          cron: "30 13 * * *"
+          cron: "40 * * * *"
           filters:
             branches:
               only:
