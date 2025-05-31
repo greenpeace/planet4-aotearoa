@@ -1,5 +1,6 @@
 {
   "require": {
-    "wpackagist-plugin/wordpress-seo": "24.4"
+    "wpackagist-plugin/wordpress-seo": "24.4",
+    "greenpeace/planet4-child-theme-aotearoa": "dev-debug-stateless-path"
   }
 }
