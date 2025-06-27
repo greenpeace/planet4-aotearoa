@@ -564,17 +564,17 @@ workflows:
       - notify-sync:
           context: org-global
 
-  stateless:
-    triggers:
-      - schedule:
-          cron: "40 * * * *"
-          filters:
-            branches:
-              only:
-                - main
-    jobs:
-      - stateless:
-          context: org-global
+  # stateless:
+  #   triggers:
+  #     - schedule:
+  #         cron: "40 * * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - main
+  #   jobs:
+  #     - stateless:
+  #         context: org-global
 
   backup:
     triggers:
