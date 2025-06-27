@@ -419,18 +419,18 @@ jobs:
           name: Notify admins
           command: notify-sync-admins.sh
 
-  stateless:
-    <<: *defaults
-    environment:
-      <<: *common_environment
-      <<: *production_environment
-    steps:
-      - run:
-          name: Configure
-          command: activate-gcloud-account.sh
-      - run:
-          name: Sync image files
-          command: gcloud storage cp gs://planet4-aotearoa-stateless/2025/06/* gs://planet4-aotearoa-stateless/2025/07/
+  # stateless:
+  #   <<: *defaults
+  #   environment:
+  #     <<: *common_environment
+  #     <<: *production_environment
+  #   steps:
+  #     - run:
+  #         name: Configure
+  #         command: activate-gcloud-account.sh
+  #     - run:
+  #         name: Sync image files
+  #         command: gcloud storage cp gs://planet4-aotearoa-stateless/2025/06/* gs://planet4-aotearoa-stateless/2025/07/
 
   backup:
     docker:
