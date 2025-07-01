@@ -417,19 +417,6 @@ jobs:
           name: Notify admins
           command: notify-sync-admins.sh
 
-  # stateless:
-  #   <<: *defaults
-  #   environment:
-  #     <<: *common_environment
-  #     <<: *production_environment
-  #   steps:
-  #     - run:
-  #         name: Configure
-  #         command: activate-gcloud-account.sh
-  #     - run:
-  #         name: Sync image files
-  #         command: gcloud storage cp gs://planet4-aotearoa-stateless/2025/06/* gs://planet4-aotearoa-stateless/2025/07/
-
   backup:
     docker:
       - image: greenpeaceinternational/planet4-backup:latest
@@ -561,18 +548,6 @@ workflows:
     jobs:
       - notify-sync:
           context: org-global
-
-  # stateless:
-  #   triggers:
-  #     - schedule:
-  #         cron: "40 * * * *"
-  #         filters:
-  #           branches:
-  #             only:
-  #               - main
-  #   jobs:
-  #     - stateless:
-  #         context: org-global
 
   backup:
     triggers:
