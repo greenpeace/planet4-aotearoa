@@ -577,7 +577,7 @@ workflows:
   elasticpress:
     triggers:
       - schedule:
-          cron: "30 04 * * *"
+          cron: "30 11 * * *"
           filters:
             branches:
               only:
