@@ -520,7 +520,7 @@ workflows:
   sync-from-production:
     triggers:
       - schedule:
-          cron: "10 01 1 * *"
+          cron: "30 09 5 * *"
           filters:
             branches:
               only:
