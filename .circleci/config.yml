@@ -16,7 +16,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:stateless-sync
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         <<: *docker_auth
 
@@ -520,7 +520,7 @@ workflows:
   sync-from-production:
     triggers:
       - schedule:
-          cron: "10 10 5 * *"
+          cron: "10 01 1 * *"
           filters:
             branches:
               only:
