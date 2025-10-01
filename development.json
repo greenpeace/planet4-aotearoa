@@ -1,7 +1,5 @@
 {
   "require": {
-    "wpackagist-plugin/wordpress-seo": "24.4",
-    "greenpeace/planet4-master-theme": "dev-main",
     "greenpeace/planet4-child-theme-aotearoa": "dev-main"
   }
 }
