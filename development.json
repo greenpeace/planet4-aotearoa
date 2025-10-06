@@ -1,6 +1,5 @@
 {
   "require": {
-    "greenpeace/planet4-child-theme-aotearoa": "dev-main",
-    "wpackagist-plugin/wp-phpmyadmin-extension":"5.2.2.01"
+    "greenpeace/planet4-child-theme-aotearoa": "dev-main"
   }
 }
