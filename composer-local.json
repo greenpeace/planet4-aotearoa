@@ -5,7 +5,6 @@
   "require": {
     "greenpeace/planet4-child-theme-aotearoa": "dev-main",
     "wpackagist-plugin/wordpress-seo": "26.8",
-    "wpackagist-plugin/smart-phone-field-for-gravity-forms": "2.2.1",
     "greenpeace/planet4-gpch-plugin-optimize": "*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
@@ -16,6 +15,7 @@
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
     "install:plugin-yoast-seo": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/wordpress-seo-premium-26.8.zip",
+    "install:smart-phone-field-for-gravity-forms": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/smart-phone-field-for-gravity-forms-pro-premium-latest.zip",
     "site:custom": ["@core:lang-nz", "@install:plugin-yoast-seo"]
   }
 }
