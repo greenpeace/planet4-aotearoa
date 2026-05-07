@@ -5,7 +5,7 @@
   "require": {
     "greenpeace/planet4-child-theme-aotearoa": "dev-main",
     "wpackagist-plugin/wordpress-seo": "26.8",
-    "wpackagist-plugin/smart-phone-field-for-gravity-forms": "2.2.1",
+    "freemius/smart-phone-field-for-gravity-forms-pro-premium": "2.2.1",
     "greenpeace/planet4-gpch-plugin-optimize": "*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
@@ -13,14 +13,15 @@
     "plugins/gravityformsstripe": "*",
     "plugins/wpml-elasticpress": "*"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.freemius.com/packages.json?authorization=Basic+YWFrc295QGdyZWVucGVhY2Uub3JnOmhJd0Z2MExKQmE1SmlrZ2o0VUhJQ1FjVzJwUnB3MzNXb3hIQklndzdNWjQ%3D"
+    }
+  ],
   "scripts": {
     "core:lang-nz": "wp language core install en_NZ --activate",
     "install:plugin-yoast-seo": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/wordpress-seo-premium-26.8.zip",
-    "install:smart-phone-field-for-gravity-forms-pro-premium-latest": "wp plugin install --activate https://p4-plugins.greenpeace.org.nz/smart-phone-field-for-gravity-forms-pro-premium-latest.zip",
-    "site:custom": [
-      "@core:lang-nz",
-      "@install:plugin-yoast-seo",
-      "@install:smart-phone-field-for-gravity-forms-pro-premium-latest"
-    ]
+    "site:custom": ["@core:lang-nz", "@install:plugin-yoast-seo"]
   }
 }
